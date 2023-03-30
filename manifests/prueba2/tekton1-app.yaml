@@ -9,9 +9,9 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: manifests/prueba2
     repoURL: https://github.com/robertorodriguez98/argoCD.git
     targetRevision: main
+    path: manifests/prueba2
   syncPolicy:
     automated:
       prune: true
